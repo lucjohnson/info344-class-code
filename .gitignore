@@ -9,3 +9,8 @@ node_modules
 !**/secret/*.template
 !**/secret/*.md
 
+# ignore .vagrant directory
+.vagrant
+
+# and the VSCode typings directory
+typings
