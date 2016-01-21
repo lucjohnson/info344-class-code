@@ -2,6 +2,8 @@
 // tsd install morgan --save wil provide the same for morgan library
 // download Postman chrome extension
 // sudo npm install -g nodemon, instead of node server.js use nodemon -L server.js (this will make it easier than restarting the server every time, may want to turn off auto save)
+// npm install <package name> --save --no-bin-links when working on Vagrant on a Windows machine
+// sudo npm config set bin-links false is a command that could also be used
 
 'use strict';
 
