@@ -1,4 +1,5 @@
 // When starting a new Vagrant box with dependencies already existing run npm install and tsd install
+// doing so will automatically download all the dependecies and if using VS Code add hinting
 {
   "name": "node-db",
   "version": "1.0.0",
