@@ -1,3 +1,5 @@
+-- source sql/schema.sql in MySQL will pull this in when MySQL is running
+
 -- create database
 create database if not exists news character set = "UTF8";
 

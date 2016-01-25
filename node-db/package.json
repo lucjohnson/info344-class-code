@@ -1,3 +1,4 @@
+// When starting a new Vagrant box with dependencies already existing run npm install and tsd install
 {
   "name": "node-db",
   "version": "1.0.0",
