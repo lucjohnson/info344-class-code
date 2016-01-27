@@ -9,7 +9,7 @@
       "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
     },
     "node/node.d.ts": {
-      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
+      "commit": "86dbea8fc37d9473fee465da4f0a21bea4f8cbd9"
     },
     "serve-static/serve-static.d.ts": {
       "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
@@ -39,13 +39,19 @@
       "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
     },
     "form-data/form-data.d.ts": {
-      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
+      "commit": "86dbea8fc37d9473fee465da4f0a21bea4f8cbd9"
     },
     "bluebird/bluebird.d.ts": {
       "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
     },
     "mongoose/mongoose.d.ts": {
       "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
+    },
+    "cheerio/cheerio.d.ts": {
+      "commit": "86dbea8fc37d9473fee465da4f0a21bea4f8cbd9"
+    },
+    "request/request.d.ts": {
+      "commit": "86dbea8fc37d9473fee465da4f0a21bea4f8cbd9"
     }
   }
 }
