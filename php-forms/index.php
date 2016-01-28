@@ -11,7 +11,12 @@ $appId = '2de143494c0b295cca9337e1e96b00e0';
 require_once 'connection.php';
 require_once 'models/zip-model.php';
 
-$q = $_GET['q'];
+if (isset($_GET['q'])) {
+    $q = $_GET['q'];   
+}
+else {
+    $q = '';
+}
 
 $conn = getConnection();
 $zipModel = new Zips($conn);
@@ -40,14 +45,11 @@ if (count($matches) == 1) {
 <body class="container">
     <?php 
     include 'views/search-form.php';
-
     include 'views/matches.php';
     
     if (isset($weatherData)) {
         include 'views/weather.php';
     }
     ?>
-    
-   
 </body>
 </html>
