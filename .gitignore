@@ -17,3 +17,5 @@ typings
 
 # ignore .key files
 *.key
+
+zip_code_databse.csv
