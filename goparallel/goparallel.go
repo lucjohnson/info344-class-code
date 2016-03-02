@@ -1,3 +1,4 @@
+// In Git Bash use the command line function split and tell it where to put the splits ex. split wordsEn.txt chunks/chunk
 package main
 
 import (
@@ -90,7 +91,16 @@ func main() {
     //the file name
     //use a sync.WaitGroup to block the main 
     //thread until all the goroutines have finished
-
+    wg := sync.WaitGroup{}
+    for _, file := range files {
+        if !file.IsDir() {
+            wg.Add(1)
+            go hashFile(dir + file.Name(), hashesDir + file.Name(), &wg)
+        }
+    }
+    
+    // wait for all goroutines to finish
+    wg.Wait()
 
     //get the ending time and report duration
     dur := time.Since(startTime)
