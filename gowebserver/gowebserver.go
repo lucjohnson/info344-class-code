@@ -1,5 +1,9 @@
 package main
 
+// to run the server in the background do 'nohup <executable name> &'
+// can now exit the shell and it will stay running, use ps -e | grep <executable name> to list what is running
+// can then kill a process by id if necessary
+
 import (
 	"net/http"
 	"fmt"
